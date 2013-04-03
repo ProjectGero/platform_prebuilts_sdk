@@ -1,4 +1,4 @@
-/*===---- wmmintrin.h - AES intrinsics ------------------------------------===
+/*===---- stdnoreturn.h - Standard header for noreturn macro ---------------===
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -21,22 +21,10 @@
  *===-----------------------------------------------------------------------===
  */
 
-#ifndef _WMMINTRIN_H
-#define _WMMINTRIN_H
+#ifndef __STDNORETURN_H
+#define __STDNORETURN_H
 
-#include <emmintrin.h>
+#define noreturn _Noreturn
+#define __noreturn_is_defined 1
 
-#if !defined (__AES__) && !defined (__PCLMUL__)
-# error "AES/PCLMUL instructions not enabled"
-#else
-
-#ifdef __AES__
-#include <__wmmintrin_aes.h>
-#endif /* __AES__ */
-
-#ifdef __PCLMUL__
-#include <__wmmintrin_pclmul.h>
-#endif /* __PCLMUL__ */
-
-#endif /* __AES__ || __PCLMUL__ */
-#endif /* _WMMINTRIN_H */
+#endif /* __STDNORETURN_H */
