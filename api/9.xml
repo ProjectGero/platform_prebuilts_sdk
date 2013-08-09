@@ -290125,6 +290125,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="REASON_UNKNOWN"
+ type="java.sql.ClientInfoStatus"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="REASON_UNKNOWN_PROPERTY"
+ type="java.sql.ClientInfoStatus"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="REASON_VALUE_INVALID"
+ type="java.sql.ClientInfoStatus"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="REASON_VALUE_TRUNCATED"
+ type="java.sql.ClientInfoStatus"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="java.sql.ClientInfoStatus"
  abstract="false"
@@ -299479,6 +299519,56 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="ROWID_UNSUPPORTED"
+ type="java.sql.RowIdLifetime"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ROWID_VALID_FOREVER"
+ type="java.sql.RowIdLifetime"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ROWID_VALID_OTHER"
+ type="java.sql.RowIdLifetime"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ROWID_VALID_SESSION"
+ type="java.sql.RowIdLifetime"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ROWID_VALID_TRANSACTION"
+ type="java.sql.RowIdLifetime"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="java.sql.RowIdLifetime"
  abstract="false"
@@ -307810,6 +307900,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="NFC"
+ type="java.text.Normalizer.Form"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NFD"
+ type="java.text.Normalizer.Form"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NFKC"
+ type="java.text.Normalizer.Form"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NFKD"
+ type="java.text.Normalizer.Form"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="java.text.Normalizer.Form"
  abstract="false"
@@ -330807,6 +330937,77 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="MINUTES"
+ type="java.util.concurrent.TimeUnit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="HOURS"
+ type="java.util.concurrent.TimeUnit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DAYS"
+ type="java.util.concurrent.TimeUnit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MICROSECONDS"
+ type="java.util.concurrent.TimeUnit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MILLISECONDS"
+ type="java.util.concurrent.TimeUnit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NANOSECONDS"
+ type="java.util.concurrent.TimeUnit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SECONDS"
+ type="java.util.concurrent.TimeUnit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+
 <method name="convert"
  return="long"
  abstract="false"
