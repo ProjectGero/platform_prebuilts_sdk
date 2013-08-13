@@ -190345,6 +190345,56 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="DEBUG"
+ type="android.webkit.ConsoleMessage.MessageLevel"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ERROR"
+ type="android.webkit.ConsoleMessage.MessageLevel"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LOG"
+ type="android.webkit.ConsoleMessage.MessageLevel"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TIP"
+ type="android.webkit.ConsoleMessage.MessageLevel"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="WARNING"
+ type="android.webkit.ConsoleMessage.MessageLevel"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.webkit.ConsoleMessage.MessageLevel"
  abstract="false"
@@ -193493,6 +193543,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="OFF"
+ type="android.webkit.WebSettings.PluginState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ON"
+ type="android.webkit.WebSettings.PluginState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ON_DEMAND"
+ type="android.webkit.WebSettings.PluginState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.webkit.WebSettings.PluginState"
  abstract="false"
