@@ -177091,6 +177091,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CLOSE"
+ type="android.webkit.WebSettings.ZoomDensity"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FAR"
+ type="android.webkit.WebSettings.ZoomDensity"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MEDIUM"
+ type="android.webkit.WebSettings.ZoomDensity"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.webkit.WebSettings.ZoomDensity"
  abstract="false"

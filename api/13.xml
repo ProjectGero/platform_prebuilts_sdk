@@ -77930,6 +77930,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="ALPHA_8"
+ type="android.graphics.Bitmap.Config"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ARGB_4444"
+ type="android.graphics.Bitmap.Config"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="deprecated"
+ visibility="public"
+>
+</field>
+<field name="ARGB_8888"
+ type="android.graphics.Bitmap.Config"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RGB_565"
+ type="android.graphics.Bitmap.Config"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Bitmap.Config"
  abstract="false"

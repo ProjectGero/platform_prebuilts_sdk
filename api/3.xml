@@ -74508,6 +74508,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="FINISHED"
+ type="android.os.AsyncTask.Status"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PENDING"
+ type="android.os.AsyncTask.Status"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RUNNING"
+ type="android.os.AsyncTask.Status"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.os.AsyncTask.Status"
  abstract="false"
