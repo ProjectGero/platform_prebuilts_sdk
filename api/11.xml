@@ -168711,6 +168711,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="MIPMAP_FULL"
+ type="android.renderscript.Allocation.MipmapControl"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MIPMAP_NONE"
+ type="android.renderscript.Allocation.MipmapControl"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MIPMAP_ON_SYNC_TO_TEXTURE"
+ type="android.renderscript.Allocation.MipmapControl"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.renderscript.Allocation.MipmapControl"
  abstract="false"
@@ -169733,6 +169763,86 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="PIXEL_A"
+ type="android.renderscript.Element.DataKind"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PIXEL_DEPTH"
+ type="android.renderscript.Element.DataKind"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PIXEL_L"
+ type="android.renderscript.Element.DataKind"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PIXEL_LA"
+ type="android.renderscript.Element.DataKind"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PIXEL_RGB"
+ type="android.renderscript.Element.DataKind"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PIXEL_RGBA"
+ type="android.renderscript.Element.DataKind"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PIXEL_YUV"
+ type="android.renderscript.Element.DataKind"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="USER"
+ type="android.renderscript.Element.DataKind"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.renderscript.Element.DataKind"
  abstract="false"
@@ -169766,6 +169876,296 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="BOOLEAN"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FLOAT_32"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FLOAT_64"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MATRIX_2X2"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MATRIX_3X3"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MATRIX_4X4"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NONE"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RS_ALLOCATION"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RS_ELEMENT"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RS_FONT"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RS_MESH"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RS_PROGRAM_FRAGMENT"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RS_PROGRAM_RASTER"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RS_PROGRAM_STORE"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RS_PROGRAM_VERTEX"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RS_SAMPLER"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RS_SCRIPT"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RS_TYPE"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SIGNED_16"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SIGNED_32"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SIGNED_64"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SIGNED_8"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNSIGNED_16"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNSIGNED_32"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNSIGNED_4_4_4_4"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNSIGNED_5_5_5_1"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNSIGNED_5_6_5"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNSIGNED_64"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNSIGNED_8"
+ type="android.renderscript.Element.DataType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.renderscript.Element.DataType"
  abstract="false"
@@ -173810,6 +174210,26 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="LOW"
+ type="android.renderscript.RenderScript.Priority"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NORMAL"
+ type="android.renderscript.RenderScript.Priority"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.renderscript.RenderScript.Priority"
  abstract="false"
@@ -174372,6 +174792,76 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CLAMP"
+ type="android.renderscript.Sampler.Value"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LINEAR"
+ type="android.renderscript.Sampler.Value"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LINEAR_MIP_LINEAR"
+ type="android.renderscript.Sampler.Value"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LINEAR_MIP_NEAREST"
+ type="android.renderscript.Sampler.Value"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MIRRORED_REPEAT"
+ type="android.renderscript.Sampler.Value"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NEAREST"
+ type="android.renderscript.Sampler.Value"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="WRAP"
+ type="android.renderscript.Sampler.Value"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.renderscript.Sampler.Value"
  abstract="false"
@@ -175043,6 +175533,96 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="NEGATIVE_X"
+ type="android.renderscript.Type.CubemapFace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NEGATIVE_Y"
+ type="android.renderscript.Type.CubemapFace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NEGATIVE_Z"
+ type="android.renderscript.Type.CubemapFace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="POSITIVE_X"
+ type="android.renderscript.Type.CubemapFace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="POSITIVE_Y"
+ type="android.renderscript.Type.CubemapFace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="POSITIVE_Z"
+ type="android.renderscript.Type.CubemapFace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="POSITVE_X"
+ type="android.renderscript.Type.CubemapFace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="POSITVE_Y"
+ type="android.renderscript.Type.CubemapFace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="POSITVE_Z"
+ type="android.renderscript.Type.CubemapFace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.renderscript.Type.CubemapFace"
  abstract="false"
@@ -202399,6 +202979,106 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="BEGIN_ARRAY"
+ type="android.util.JsonToken"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="BEGIN_OBJECT"
+ type="android.util.JsonToken"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="BOOLEAN"
+ type="android.util.JsonToken"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="END_ARRAY"
+ type="android.util.JsonToken"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="END_DOCUMENT"
+ type="android.util.JsonToken"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="END_OBJECT"
+ type="android.util.JsonToken"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NAME"
+ type="android.util.JsonToken"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NULL"
+ type="android.util.JsonToken"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NUMBER"
+ type="android.util.JsonToken"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="STRING"
+ type="android.util.JsonToken"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.util.JsonToken"
  abstract="false"

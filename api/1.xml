@@ -35491,6 +35491,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="BOTH"
+ type="android.database.CursorJoiner.Result"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LEFT"
+ type="android.database.CursorJoiner.Result"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RIGHT"
+ type="android.database.CursorJoiner.Result"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.database.CursorJoiner.Result"
  abstract="false"
@@ -39638,6 +39668,26 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="AVOID"
+ type="android.graphics.AvoidXfermode.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TARGET"
+ type="android.graphics.AvoidXfermode.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.AvoidXfermode.Mode"
  abstract="false"
@@ -40120,6 +40170,26 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="JPEG"
+ type="android.graphics.Bitmap.CompressFormat"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PNG"
+ type="android.graphics.Bitmap.CompressFormat"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Bitmap.CompressFormat"
  abstract="false"
@@ -40153,6 +40223,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="ALPHA_8"
+ type="android.graphics.Bitmap.Config"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ARGB_4444"
+ type="android.graphics.Bitmap.Config"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ARGB_8888"
+ type="android.graphics.Bitmap.Config"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RGB_565"
+ type="android.graphics.Bitmap.Config"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Bitmap.Config"
  abstract="false"
@@ -40522,6 +40632,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="INNER"
+ type="android.graphics.BlurMaskFilter.Blur"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NORMAL"
+ type="android.graphics.BlurMaskFilter.Blur"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="OUTER"
+ type="android.graphics.BlurMaskFilter.Blur"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SOLID"
+ type="android.graphics.BlurMaskFilter.Blur"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.BlurMaskFilter.Blur"
  abstract="false"
@@ -42135,6 +42285,26 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="AA"
+ type="android.graphics.Canvas.EdgeType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="BW"
+ type="android.graphics.Canvas.EdgeType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Canvas.EdgeType"
  abstract="false"
@@ -42168,6 +42338,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="TRIANGLES"
+ type="android.graphics.Canvas.VertexMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TRIANGLE_FAN"
+ type="android.graphics.Canvas.VertexMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TRIANGLE_STRIP"
+ type="android.graphics.Canvas.VertexMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Canvas.VertexMode"
  abstract="false"
@@ -43075,6 +43275,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="FREEZE_END"
+ type="android.graphics.Interpolator.Result"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FREEZE_START"
+ type="android.graphics.Interpolator.Result"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NORMAL"
+ type="android.graphics.Interpolator.Result"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Interpolator.Result"
  abstract="false"
@@ -44059,6 +44289,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CENTER"
+ type="android.graphics.Matrix.ScaleToFit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="END"
+ type="android.graphics.Matrix.ScaleToFit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FILL"
+ type="android.graphics.Matrix.ScaleToFit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="START"
+ type="android.graphics.Matrix.ScaleToFit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Matrix.ScaleToFit"
  abstract="false"
@@ -45615,6 +45885,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CENTER"
+ type="android.graphics.Paint.Align"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LEFT"
+ type="android.graphics.Paint.Align"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RIGHT"
+ type="android.graphics.Paint.Align"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Paint.Align"
  abstract="false"
@@ -45648,6 +45948,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="BUTT"
+ type="android.graphics.Paint.Cap"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ROUND"
+ type="android.graphics.Paint.Cap"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SQUARE"
+ type="android.graphics.Paint.Cap"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Paint.Cap"
  abstract="false"
@@ -45815,6 +46145,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="BEVEL"
+ type="android.graphics.Paint.Join"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MITER"
+ type="android.graphics.Paint.Join"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ROUND"
+ type="android.graphics.Paint.Join"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Paint.Join"
  abstract="false"
@@ -45848,6 +46208,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="FILL"
+ type="android.graphics.Paint.Style"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FILL_AND_STROKE"
+ type="android.graphics.Paint.Style"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="STROKE"
+ type="android.graphics.Paint.Style"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Paint.Style"
  abstract="false"
@@ -46496,6 +46886,26 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CCW"
+ type="android.graphics.Paint.Direction"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CW"
+ type="android.graphics.Paint.Direction"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Path.Direction"
  abstract="false"
@@ -46529,6 +46939,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="EVEN_ODD"
+ type="android.graphics.Path.FillType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INVERSE_EVEN_ODD"
+ type="android.graphics.Path.FillType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INVERSE_WINDING"
+ type="android.graphics.Path.FillType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="WINDING"
+ type="android.graphics.Path.FillType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Path.FillType"
  abstract="false"
@@ -46587,6 +47037,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="MORPH"
+ type="android.graphics.PathDashPathEffect.Style"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ROTATE"
+ type="android.graphics.PathDashPathEffect.Style"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TRANSLATE"
+ type="android.graphics.PathDashPathEffect.Style"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.PathDashPathEffect.Style"
  abstract="false"
@@ -47460,6 +47940,186 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="ADD"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CLEAR"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DARKEN"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DST"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DST_ATOP"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DST_IN"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DST_OUT"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DST_OVER"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LIGHTEN"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MULTIPLY"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="OVERLAY"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SCREEN"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SRC"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SRC_ATOP"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SRC_IN"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SRC_OUT"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SRC_OVER"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="XOR"
+ type="android.graphics.PorterDuff.Mode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.PorterDuff.Mode"
  abstract="false"
@@ -49010,6 +49670,66 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="DIFFERENCE"
+ type="android.graphics.Region.Op"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INTERSECT"
+ type="android.graphics.Region.Op"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="REPLACE"
+ type="android.graphics.Region.Op"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="REVERSE_DIFFERENCE"
+ type="android.graphics.Region.Op"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNION"
+ type="android.graphics.Region.Op"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="XOR"
+ type="android.graphics.Region.Op"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Region.Op"
  abstract="false"
@@ -49118,6 +49838,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CLAMP"
+ type="android.graphics.Shader.TileMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MIRROR"
+ type="android.graphics.Shader.TileMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="REPEAT"
+ type="android.graphics.Shader.TileMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.Shader.TileMode"
  abstract="false"
@@ -51344,6 +52094,86 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="BL_TR"
+ type="android.graphics.drawable.GradientDrawable.Orientation"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="BOTTOM_TOP"
+ type="android.graphics.drawable.GradientDrawable.Orientation"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="BR_TL"
+ type="android.graphics.drawable.GradientDrawable.Orientation"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LEFT_RIGHT"
+ type="android.graphics.drawable.GradientDrawable.Orientation"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RIGHT_LEFT"
+ type="android.graphics.drawable.GradientDrawable.Orientation"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TL_BR"
+ type="android.graphics.drawable.GradientDrawable.Orientation"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TOP_BOTTOM"
+ type="android.graphics.drawable.GradientDrawable.Orientation"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TR_BL"
+ type="android.graphics.drawable.GradientDrawable.Orientation"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.graphics.drawable.GradientDrawable.Orientation"
  abstract="false"
@@ -59861,6 +60691,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="ABSTRACT"
+ type="android.net.LocalSocketAddress.Namespace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FILESYSTEM"
+ type="android.net.LocalSocketAddress.Namespace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RESERVED"
+ type="android.net.LocalSocketAddress.Namespace"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.net.LocalSocketAddress.Namespace"
  abstract="false"
@@ -60154,6 +61014,136 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="AUTHENTICATING"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="BLOCKED"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CAPTIVE_PORTAL_CHECK"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CONNECTED"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CONNECTING"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DISCONNECTED"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DISCONNECTING"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FAILED"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="IDLE"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="OBTAINING_IPADDR"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SCANNING"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SUSPENDED"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="VERIFYING_POOR_LINK"
+ type="android.net.NetworkInfo.DetailedState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.net.NetworkInfo.DetailedState"
  abstract="false"
@@ -60187,6 +61177,66 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CONNECTED"
+ type="android.net.NetworkInfo.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CONNECTING"
+ type="android.net.NetworkInfo.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DISCONNECTED"
+ type="android.net.NetworkInfo.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DISCONNECTING"
+ type="android.net.NetworkInfo.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SUSPENDED"
+ type="android.net.NetworkInfo.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNKNOWN"
+ type="android.net.NetworkInfo.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.net.NetworkInfo.State"
  abstract="false"
@@ -62130,6 +63180,136 @@
 >
 <implements name="android.os.Parcelable">
 </implements>
+<field name="ASSOCIATED"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ASSOCIATING"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="AUTHENTICATING"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="COMPLETED"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DISCONNECTED"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DORMANT"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FOUR_WAY_HANDSHAKE"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="GROUP_HANDSHAKE"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INACTIVE"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INTERFACE_DISABLED"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INVALID"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SCANNING"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNINITIALIZED"
+ type="android.net.wifi.SupplicantState"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="describeContents"
  return="int"
  abstract="false"
@@ -83764,6 +84944,56 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CLASS_0"
+ type="android.telephony.gsm.SmsMessage.MessageClass"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CLASS_1"
+ type="android.telephony.gsm.SmsMessage.MessageClass"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CLASS_2"
+ type="android.telephony.gsm.SmsMessage.MessageClass"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CLASS_3"
+ type="android.telephony.gsm.SmsMessage.MessageClass"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNKNOWN"
+ type="android.telephony.gsm.SmsMessage.MessageClass"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.telephony.gsm.SmsMessage.MessageClass"
  abstract="false"
@@ -90695,6 +91925,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="ALIGN_CENTER"
+ type="android.text.Layout.Alignment"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ALIGN_NORMAL"
+ type="android.text.Layout.Alignment"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ALIGN_OPPOSITE"
+ type="android.text.Layout.Alignment"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.text.Layout.Alignment"
  abstract="false"
@@ -93335,6 +94595,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="END"
+ type="android.text.TextUtils.TruncateAt"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MARQUEE"
+ type="android.text.TextUtils.TruncateAt"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MIDDLE"
+ type="android.text.TextUtils.TruncateAt"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="START"
+ type="android.text.TextUtils.TruncateAt"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.text.TextUtils.TruncateAt"
  abstract="false"
@@ -95194,6 +96494,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CHARACTERS"
+ type="android.text.method.TextKeyListener.Capitalize"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NONE"
+ type="android.text.method.TextKeyListener.Capitalize"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SENTENCES"
+ type="android.text.method.TextKeyListener.Capitalize"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="WORDS"
+ type="android.text.method.TextKeyListener.Capitalize"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.text.method.TextKeyListener.Capitalize"
  abstract="false"
@@ -100677,6 +102017,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="ISO_8859_1"
+ type="android.util.Xml.Encoding"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="US_ASCII"
+ type="android.util.Xml.Encoding"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UTF_16"
+ type="android.util.Xml.Encoding"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UTF_8"
+ type="android.util.Xml.Encoding"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.util.Xml.Encoding"
  abstract="false"
@@ -110750,6 +112130,86 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="BUILD_CACHE"
+ type="android.view.ViewDebug.HierarchyTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DRAW"
+ type="android.view.ViewDebug.HierarchyTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INVALIDATE"
+ type="android.view.ViewDebug.HierarchyTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INVALIDATE_CHILD"
+ type="android.view.ViewDebug.HierarchyTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="INVALIDATE_CHILD_IN_PARENT"
+ type="android.view.ViewDebug.HierarchyTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ON_LAYOUT"
+ type="android.view.ViewDebug.HierarchyTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="ON_MEASURE"
+ type="android.view.ViewDebug.HierarchyTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="REQUEST_LAYOUT"
+ type="android.view.ViewDebug.HierarchyTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.view.ViewDebug.HierarchyTraceType"
  abstract="false"
@@ -110794,6 +112254,66 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="BIND_VIEW"
+ type="android.view.ViewDebug.RecyclerTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MOVE_FROM_ACTIVE_TO_SCRAP_HEAP"
+ type="android.view.ViewDebug.RecyclerTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MOVE_TO_SCRAP_HEAP"
+ type="android.view.ViewDebug.RecyclerTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NEW_VIEW"
+ type="android.view.ViewDebug.RecyclerTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RECYCLE_FROM_ACTIVE_HEAP"
+ type="android.view.ViewDebug.RecyclerTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RECYCLE_FROM_SCRAP_HEAP"
+ type="android.view.ViewDebug.RecyclerTraceType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.view.ViewDebug.RecyclerTraceType"
  abstract="false"
@@ -120485,6 +122005,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="NARROW_COLUMNS"
+ type="android.webkit.WebSettings.LayoutAlgorithm"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NORMAL"
+ type="android.webkit.WebSettings.LayoutAlgorithm"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SINGLE_COLUMN"
+ type="android.webkit.WebSettings.LayoutAlgorithm"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.webkit.WebSettings.LayoutAlgorithm"
  abstract="false"
@@ -120518,6 +122068,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="HIGH"
+ type="android.webkit.WebSettings.RenderPriority"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LOW"
+ type="android.webkit.WebSettings.RenderPriority"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NORMAL"
+ type="android.webkit.WebSettings.RenderPriority"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.webkit.WebSettings.RenderPriority"
  abstract="false"
@@ -120551,6 +122131,56 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="LARGER"
+ type="android.webkit.WebSettings.TextSize"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LARGEST"
+ type="android.webkit.WebSettings.TextSize"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NORMAL"
+ type="android.webkit.WebSettings.TextSize"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SMALLER"
+ type="android.webkit.WebSettings.TextSize"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SMALLEST"
+ type="android.webkit.WebSettings.TextSize"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.webkit.WebSettings.TextSize"
  abstract="false"
@@ -128921,8 +130551,88 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CENTER"
+ type="android.widget.ImageView.ScaleType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CENTER_CROP"
+ type="android.widget.ImageView.ScaleType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CENTER_INSIDE"
+ type="android.widget.ImageView.ScaleType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FIT_CENTER"
+ type="android.widget.ImageView.ScaleType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FIT_END"
+ type="android.widget.ImageView.ScaleType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FIT_START"
+ type="android.widget.ImageView.ScaleType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FIT_XY"
+ type="android.widget.ImageView.ScaleType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MATRIX"
+ type="android.widget.ImageView.ScaleType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
- return="android.widget.ImageView.ScaleType"
+ type="android.widget.ImageView.ScaleType"
  abstract="false"
  native="false"
  synchronized="false"
@@ -136054,6 +137764,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="EDITABLE"
+ type="android.widget.TextView.BufferType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NORMAL"
+ type="android.widget.TextView.BufferType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SPANNABLE"
+ type="android.widget.TextView.BufferType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="android.widget.TextView.BufferType"
  abstract="false"
@@ -165860,6 +167600,66 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="BLOCKED"
+ type="java.lang.Thread.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NEW"
+ type="java.lang.Thread.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RUNNABLE"
+ type="java.lang.Thread.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TERMINATED"
+ type="java.lang.Thread.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TIMED_WAITING"
+ type="java.lang.Thread.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="WAITING"
+ type="java.lang.Thread.State"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="java.lang.Thread.State"
  abstract="false"
@@ -166862,6 +168662,86 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="ANNOTATION_TYPE"
+ type="java.lang.annotation.ElementType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CONSTRUCTOR"
+ type="java.lang.annotation.ElementType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FIELD"
+ type="java.lang.annotation.ElementType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="LOCAL_VARIABLE"
+ type="java.lang.annotation.ElementType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="METHOD"
+ type="java.lang.annotation.ElementType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PACKAGE"
+ type="java.lang.annotation.ElementType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PARAMETER"
+ type="java.lang.annotation.ElementType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TYPE"
+ type="java.lang.annotation.ElementType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="java.lang.annotation.ElementType"
  abstract="false"
@@ -166960,6 +168840,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CLASS"
+ type="java.lang.annotation.RetentionPolicy"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="RUNTIME"
+ type="java.lang.annotation.RetentionPolicy"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SOURCE"
+ type="java.lang.annotation.RetentionPolicy"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="java.lang.annotation.RetentionPolicy"
  abstract="false"
@@ -171204,6 +173114,86 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="CEILING"
+ type="java.math.RoundingMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="DOWN"
+ type="java.math.RoundingMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="FLOOR"
+ type="java.math.RoundingMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="HALF_DOWN"
+ type="java.math.RoundingMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="HALF_EVEN"
+ type="java.math.RoundingMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="HALF_UP"
+ type="java.math.RoundingMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UNNECESSARY"
+ type="java.math.RoundingMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="UP"
+ type="java.math.RoundingMode"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="java.math.RoundingMode"
  abstract="false"
@@ -171453,6 +173443,26 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="PROXY"
+ type="java.net.Authenticator.RequestorType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SERVER"
+ type="java.net.Authenticator.RequestorType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="java.net.Authenticator.RequestorType"
  abstract="false"
@@ -174789,6 +176799,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="DIRECT"
+ type="java.net.Proxy.Type"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="HTTP"
+ type="java.net.Proxy.Type"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SOCKS"
+ type="java.net.Proxy.Type"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="java.net.Proxy.Type"
  abstract="false"
@@ -188484,6 +190524,36 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="PRIVATE"
+ type="java.security.KeyRep.Type"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PUBLIC"
+ type="java.security.KeyRep.Type"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SECRET"
+ type="java.security.KeyRep.Type"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="java.security.KeyRep.Type"
  abstract="false"
@@ -221949,6 +224019,26 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="DECIMAL_FLOAT"
+ type="java.util.Formatter.BigDecimalLayoutForm"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SCIENTIFIC"
+ type="java.util.Formatter.BigDecimalLayoutForm"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="java.util.Formatter.BigDecimalLayoutForm"
  abstract="false"
@@ -233336,6 +235426,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="MICROSECONDS"
+ type="java.util.concurrent.TimeUnit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="MILLISECONDS"
+ type="java.util.concurrent.TimeUnit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NANOSECONDS"
+ type="java.util.concurrent.TimeUnit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="SECONDS"
+ type="java.util.concurrent.TimeUnit"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="convert"
  return="long"
  abstract="false"
@@ -261258,6 +263388,56 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="FINISHED"
+ type="javax.net.ssl.SSLEngineResult.HandshakeStatus"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NEED_TASK"
+ type="javax.net.ssl.SSLEngineResult.HandshakeStatus"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NEED_UNWRAP"
+ type="javax.net.ssl.SSLEngineResult.HandshakeStatus"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NEED_WRAP"
+ type="javax.net.ssl.SSLEngineResult.HandshakeStatus"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="NOT_HANDSHAKING"
+ type="javax.net.ssl.SSLEngineResult.HandshakeStatus"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="javax.net.ssl.SSLEngineResult.HandshakeStatus"
  abstract="false"
@@ -261291,6 +263471,46 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="BUFFER_OVERFLOW"
+ type="javax.net.ssl.SSLEngineResult.Status"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="BUFFER_UNDERFLOW"
+ type="javax.net.ssl.SSLEngineResult.Status"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="CLOSED"
+ type="javax.net.ssl.SSLEngineResult.Status"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="OK"
+ type="javax.net.ssl.SSLEngineResult.Status"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="javax.net.ssl.SSLEngineResult.Status"
  abstract="false"
@@ -277803,6 +280023,26 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="LAYERED"
+ type="org.apache.http.conn.routing.RouteInfo.LayerType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="PLAIN"
+ type="org.apache.http.conn.routing.RouteInfo.LayerType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="org.apache.http.conn.routing.RouteInfo.LayerType"
  abstract="false"
@@ -277836,6 +280076,26 @@
  deprecated="not deprecated"
  visibility="public"
 >
+<field name="PLAIN"
+ type="org.apache.http.conn.routing.RouteInfo.TunnelType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
+<field name="TUNNELLED"
+ type="org.apache.http.conn.routing.RouteInfo.TunnelType"
+ transient="false"
+ volatile="false"
+ static="true"
+ final="true"
+ deprecated="not deprecated"
+ visibility="public"
+>
+</field>
 <method name="valueOf"
  return="org.apache.http.conn.routing.RouteInfo.TunnelType"
  abstract="false"
