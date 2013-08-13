@@ -1,4 +1,4 @@
-/*===---- rtmintrin.h - RTM intrinsics -------------------------------------===
+/*===---- rdseedintrin.h - RDSEED intrinsics -------------------------------===
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -21,34 +21,32 @@
  *===-----------------------------------------------------------------------===
  */
 
-#ifndef __IMMINTRIN_H
-#error "Never use <rtmintrin.h> directly; include <immintrin.h> instead."
+#ifndef __X86INTRIN_H
+#error "Never use <rdseedintrin.h> directly; include <x86intrin.h> instead."
 #endif
 
-#ifndef __RTMINTRIN_H
-#define __RTMINTRIN_H
+#ifndef __RDSEEDINTRIN_H
+#define __RDSEEDINTRIN_H
 
-#define _XBEGIN_STARTED   (~0u)
-#define _XABORT_EXPLICIT  (1 << 0)
-#define _XABORT_RETRY     (1 << 1)
-#define _XABORT_CONFLICT  (1 << 2)
-#define _XABORT_CAPACITY  (1 << 3)
-#define _XABORT_DEBUG     (1 << 4)
-#define _XABORT_NESTED    (1 << 5)
-#define _XABORT_CODE(x)   (((x) >> 24) & 0xFF)
-
-static __inline__ unsigned int __attribute__((__always_inline__, __nodebug__))
-_xbegin(void)
+#ifdef __RDSEED__
+static __inline__ int __attribute__((__always_inline__, __nodebug__))
+_rdseed16_step(unsigned short *__p)
 {
-  return __builtin_ia32_xbegin();
+  return __builtin_ia32_rdseed16_step(__p);
 }
 
-static __inline__ void __attribute__((__always_inline__, __nodebug__))
-_xend(void)
+static __inline__ int __attribute__((__always_inline__, __nodebug__))
+_rdseed32_step(unsigned int *__p)
 {
-  __builtin_ia32_xend();
+  return __builtin_ia32_rdseed32_step(__p);
 }
 
-#define _xabort(imm) __builtin_ia32_xabort((imm))
-
-#endif /* __RTMINTRIN_H */
+#ifdef __x86_64__
+static __inline__ int __attribute__((__always_inline__, __nodebug__))
+_rdseed64_step(unsigned long long *__p)
+{
+  return __builtin_ia32_rdseed64_step(__p);
+}
+#endif
+#endif /* __RDSEED__ */
+#endif /* __RDSEEDINTRIN_H */
