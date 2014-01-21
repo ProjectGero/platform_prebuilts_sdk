@@ -61024,26 +61024,6 @@
  visibility="public"
 >
 </field>
-<field name="BLOCKED"
- type="android.net.NetworkInfo.DetailedState"
- transient="false"
- volatile="false"
- static="true"
- final="true"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="CAPTIVE_PORTAL_CHECK"
- type="android.net.NetworkInfo.DetailedState"
- transient="false"
- volatile="false"
- static="true"
- final="true"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
 <field name="CONNECTED"
  type="android.net.NetworkInfo.DetailedState"
  transient="false"
@@ -61125,16 +61105,6 @@
 >
 </field>
 <field name="SUSPENDED"
- type="android.net.NetworkInfo.DetailedState"
- transient="false"
- volatile="false"
- static="true"
- final="true"
- deprecated="not deprecated"
- visibility="public"
->
-</field>
-<field name="VERIFYING_POOR_LINK"
  type="android.net.NetworkInfo.DetailedState"
  transient="false"
  volatile="false"
