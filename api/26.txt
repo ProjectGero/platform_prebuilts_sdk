@@ -22844,34 +22844,12 @@ package android.media.tv {
   }
 
   public static final class TvContract.Programs implements android.media.tv.TvContract.BaseTvColumns {
-    field public static final java.lang.String COLUMN_AUDIO_LANGUAGE = "audio_language";
     field public static final java.lang.String COLUMN_BROADCAST_GENRE = "broadcast_genre";
-    field public static final java.lang.String COLUMN_CANONICAL_GENRE = "canonical_genre";
-    field public static final java.lang.String COLUMN_CHANNEL_ID = "channel_id";
-    field public static final java.lang.String COLUMN_CONTENT_RATING = "content_rating";
     field public static final java.lang.String COLUMN_END_TIME_UTC_MILLIS = "end_time_utc_millis";
-    field public static final java.lang.String COLUMN_EPISODE_DISPLAY_NUMBER = "episode_display_number";
     field public static final deprecated java.lang.String COLUMN_EPISODE_NUMBER = "episode_number";
-    field public static final java.lang.String COLUMN_EPISODE_TITLE = "episode_title";
-    field public static final java.lang.String COLUMN_INTERNAL_PROVIDER_DATA = "internal_provider_data";
-    field public static final java.lang.String COLUMN_INTERNAL_PROVIDER_FLAG1 = "internal_provider_flag1";
-    field public static final java.lang.String COLUMN_INTERNAL_PROVIDER_FLAG2 = "internal_provider_flag2";
-    field public static final java.lang.String COLUMN_INTERNAL_PROVIDER_FLAG3 = "internal_provider_flag3";
-    field public static final java.lang.String COLUMN_INTERNAL_PROVIDER_FLAG4 = "internal_provider_flag4";
-    field public static final java.lang.String COLUMN_LONG_DESCRIPTION = "long_description";
-    field public static final java.lang.String COLUMN_POSTER_ART_URI = "poster_art_uri";
     field public static final java.lang.String COLUMN_RECORDING_PROHIBITED = "recording_prohibited";
-    field public static final java.lang.String COLUMN_SEARCHABLE = "searchable";
-    field public static final java.lang.String COLUMN_SEASON_DISPLAY_NUMBER = "season_display_number";
     field public static final deprecated java.lang.String COLUMN_SEASON_NUMBER = "season_number";
-    field public static final java.lang.String COLUMN_SEASON_TITLE = "season_title";
-    field public static final java.lang.String COLUMN_SHORT_DESCRIPTION = "short_description";
     field public static final java.lang.String COLUMN_START_TIME_UTC_MILLIS = "start_time_utc_millis";
-    field public static final java.lang.String COLUMN_THUMBNAIL_URI = "thumbnail_uri";
-    field public static final java.lang.String COLUMN_TITLE = "title";
-    field public static final java.lang.String COLUMN_VERSION_NUMBER = "version_number";
-    field public static final java.lang.String COLUMN_VIDEO_HEIGHT = "video_height";
-    field public static final java.lang.String COLUMN_VIDEO_WIDTH = "video_width";
     field public static final java.lang.String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/program";
     field public static final java.lang.String CONTENT_TYPE = "vnd.android.cursor.dir/program";
     field public static final android.net.Uri CONTENT_URI;
@@ -22901,36 +22879,14 @@ package android.media.tv {
   }
 
   public static final class TvContract.RecordedPrograms implements android.media.tv.TvContract.BaseTvColumns {
-    field public static final java.lang.String COLUMN_AUDIO_LANGUAGE = "audio_language";
     field public static final java.lang.String COLUMN_BROADCAST_GENRE = "broadcast_genre";
-    field public static final java.lang.String COLUMN_CANONICAL_GENRE = "canonical_genre";
-    field public static final java.lang.String COLUMN_CHANNEL_ID = "channel_id";
-    field public static final java.lang.String COLUMN_CONTENT_RATING = "content_rating";
     field public static final java.lang.String COLUMN_END_TIME_UTC_MILLIS = "end_time_utc_millis";
-    field public static final java.lang.String COLUMN_EPISODE_DISPLAY_NUMBER = "episode_display_number";
-    field public static final java.lang.String COLUMN_EPISODE_TITLE = "episode_title";
     field public static final java.lang.String COLUMN_INPUT_ID = "input_id";
-    field public static final java.lang.String COLUMN_INTERNAL_PROVIDER_DATA = "internal_provider_data";
-    field public static final java.lang.String COLUMN_INTERNAL_PROVIDER_FLAG1 = "internal_provider_flag1";
-    field public static final java.lang.String COLUMN_INTERNAL_PROVIDER_FLAG2 = "internal_provider_flag2";
-    field public static final java.lang.String COLUMN_INTERNAL_PROVIDER_FLAG3 = "internal_provider_flag3";
-    field public static final java.lang.String COLUMN_INTERNAL_PROVIDER_FLAG4 = "internal_provider_flag4";
-    field public static final java.lang.String COLUMN_LONG_DESCRIPTION = "long_description";
-    field public static final java.lang.String COLUMN_POSTER_ART_URI = "poster_art_uri";
     field public static final java.lang.String COLUMN_RECORDING_DATA_BYTES = "recording_data_bytes";
     field public static final java.lang.String COLUMN_RECORDING_DATA_URI = "recording_data_uri";
     field public static final java.lang.String COLUMN_RECORDING_DURATION_MILLIS = "recording_duration_millis";
     field public static final java.lang.String COLUMN_RECORDING_EXPIRE_TIME_UTC_MILLIS = "recording_expire_time_utc_millis";
-    field public static final java.lang.String COLUMN_SEARCHABLE = "searchable";
-    field public static final java.lang.String COLUMN_SEASON_DISPLAY_NUMBER = "season_display_number";
-    field public static final java.lang.String COLUMN_SEASON_TITLE = "season_title";
-    field public static final java.lang.String COLUMN_SHORT_DESCRIPTION = "short_description";
     field public static final java.lang.String COLUMN_START_TIME_UTC_MILLIS = "start_time_utc_millis";
-    field public static final java.lang.String COLUMN_THUMBNAIL_URI = "thumbnail_uri";
-    field public static final java.lang.String COLUMN_TITLE = "title";
-    field public static final java.lang.String COLUMN_VERSION_NUMBER = "version_number";
-    field public static final java.lang.String COLUMN_VIDEO_HEIGHT = "video_height";
-    field public static final java.lang.String COLUMN_VIDEO_WIDTH = "video_width";
     field public static final java.lang.String CONTENT_ITEM_TYPE = "vnd.android.cursor.item/recorded_program";
     field public static final java.lang.String CONTENT_TYPE = "vnd.android.cursor.dir/recorded_program";
     field public static final android.net.Uri CONTENT_URI;
