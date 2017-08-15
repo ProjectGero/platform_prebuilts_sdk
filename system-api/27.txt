@@ -10858,7 +10858,6 @@ package android.content.pm {
     method public int getVersionCode();
     method public void writeToParcel(android.os.Parcel, int);
     field public static final android.os.Parcelable.Creator<android.content.pm.InstantAppResolveInfo> CREATOR;
-    field public static final java.lang.String SHA_ALGORITHM = "SHA-256";
   }
 
   public static final class InstantAppResolveInfo.InstantAppDigest implements android.os.Parcelable {
@@ -11529,8 +11528,8 @@ package android.content.pm {
     field public static final int PROTECTION_DANGEROUS = 1; // 0x1
     field public static final int PROTECTION_FLAG_APPOP = 64; // 0x40
     field public static final int PROTECTION_FLAG_DEVELOPMENT = 32; // 0x20
-    field public static final int PROTECTION_FLAG_EPHEMERAL = 4096; // 0x1000
     field public static final int PROTECTION_FLAG_INSTALLER = 256; // 0x100
+    field public static final int PROTECTION_FLAG_INSTANT = 4096; // 0x1000
     field public static final int PROTECTION_FLAG_PRE23 = 128; // 0x80
     field public static final int PROTECTION_FLAG_PREINSTALLED = 1024; // 0x400
     field public static final int PROTECTION_FLAG_PRIVILEGED = 16; // 0x10
